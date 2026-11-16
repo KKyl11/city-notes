@@ -2,7 +2,8 @@
 
 繳交標題：成大 [學號待填] [系級待填] [姓名待填] City Notes
 
-一般截止：2026-11-16 23:59（Asia/Taipei）  
+一般截止：2026-11-16 23:59（Asia/Taipei）
+
 補繳截止：2026-11-17 16:00（Asia/Taipei）
 
 ## 1. 專案簡介
@@ -19,7 +20,9 @@ Repository 可見性：Public。
 
 https://kkyl11.github.io/city-notes/
 
-部署狀態：NOT VERIFIED（部署完成後更新；目前不可宣稱成功）。
+部署狀態：PASS / VERIFIED。2026-11-16 已確認 GitHub Actions build 與 deploy 成功，並對上述 HTTPS 公開網址完成瀏覽器驗證。Home、Explore、About 及五座城市詳細頁可正常開啟與重新整理，圖片載入正常。
+
+部署紀錄：https://github.com/KKyl11/city-notes/actions/runs/43874937469
 
 ## 4. 完整 AGENTS.md
 
@@ -101,6 +104,6 @@ AI 先閱讀 AGENTS.md，再查證城市資訊與照片授權，建立符合統�
 
 ---
 
-驗證紀錄：`npm run validate`、`npm test`、`npm run build` PASS；本地瀏覽器確認四種頁面、五城重新整理、搜尋/合併篩選、空狀態/清除、無效 slug、圖片、手機排版及無 runtime errors。測試不等於完整無障礙稽核；來源網址格式與實際內容/授權查證分開處理。圖片署名詳見 ASSET_CREDITS.md 及城市頁末。
+驗證紀錄：`npm run validate`、`npm test`、`npm run build` PASS；`npm run test:browser` 分別以本地 `/city-notes/` 前綴及正式網址執行，確認四種頁面、五城重新整理、搜尋/合併篩選、空狀態/清除、無效 slug、十張圖片、390px 手機排版、skip link、減少動態偏好，無 JavaScript runtime errors 或站內 HTTP 載入失敗。GitHub Actions 的 Linux 環境亦完成 npm ci、validate、test、build、Pages deploy。測試不等於完整無障礙稽核；來源網址格式與實際內容/授權查證分開處理。圖片署名詳見 ASSET_CREDITS.md 及城市頁末。
 
 使用者須填入學號、系級與姓名，再自行複製本文件至課程系統正式繳交。Codex 未操作學校繳交系統。

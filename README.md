@@ -5,7 +5,7 @@ Explore the World, One City at a Time.
 以 Editorial Minimalist 風格呈現東京、巴黎、紐約、雪梨與開普敦的繁體中文城市筆記。大學 AGENTS.md 作業；不含商業服務、會員或後端。
 
 - Repository：[KKyl11/city-notes](https://github.com/KKyl11/city-notes)
-- Live：[City Notes](https://KKyl11.github.io/city-notes/)（部署驗證結果見 SUBMISSION.md）
+- Live：[City Notes](https://kkyl11.github.io/city-notes/)（已部署並完成公開瀏覽器驗證，結果見 SUBMISSION.md）
 
 ## 功能與技術
 Home 精選五城；Explore 支援中英文城市名、國家搜尋、洲別合併篩選、筆數、空狀態與清除；City 共用模板包含景點、美食、季節、建議、照片與來源；About 介紹策展理念。響應式、鍵盤導覽、減少動態偏好。Vite 8、Vanilla ES Modules、HTML、CSS tokens、JSON、Node 24；僅 Vite 與 Playwright 開發依賴，無執行期套件、遠端字型或付費 API。

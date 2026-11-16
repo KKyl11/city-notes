@@ -1,0 +1,93 @@
+{
+  "slug": "sydney",
+  "name": {
+    "zh": "雪梨",
+    "en": "Sydney"
+  },
+  "country": {
+    "zh": "澳洲",
+    "en": "Australia"
+  },
+  "continent": "Oceania",
+  "tagline": "讓海風，替城市寫下留白。",
+  "summary": "雪梨把港灣、表演藝術與海岸生活放在同一張風景裡。從環形碼頭看向歌劇院，沿著水岸走進綠地，或把一段時間留給海灘，城市節奏便慢了下來。這裡適合在文化場館與戶外空間之間切換，感受都市與海的距離。",
+  "tags": ["Harbour", "Coast", "Culture"],
+  "bestTimeToVisit": "南半球季節與臺灣相反。春季與秋季適合城市步行；夏季戶外活動需注意防曬與補水。海邊天氣與風浪可能變動，依現場狀況安排。",
+  "heroImage": {
+    "src": "images/sydney/hero.webp",
+    "alt": "雪梨港的歌劇院、海港大橋與水面",
+    "author": "Caleb",
+    "sourceUrl": "https://unsplash.com/photos/JmuyB_LibRo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license"
+  },
+  "attractions": [
+    {
+      "name": "雪梨歌劇院",
+      "category": "Culture",
+      "description": "從港邊欣賞帆形建築，若想深入認識，可查官方導覽與演出安排。"
+    },
+    {
+      "name": "雪梨海港大橋",
+      "category": "Architecture",
+      "description": "從不同水岸角度觀看橋樑與港灣，步行前確認可通行路線。"
+    },
+    {
+      "name": "邦迪海灘",
+      "category": "Coast",
+      "description": "感受沙灘與海岸生活，游泳時僅在有救生員巡守的旗幟區域活動。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "咖啡與早午餐",
+      "description": "找一家街區咖啡館，體會從咖啡展開一天的生活方式。"
+    },
+    {
+      "name": "海鮮",
+      "description": "港灣城市的餐桌有各式海鮮，點餐前確認食材與料理方式。"
+    },
+    {
+      "name": "多元文化料理",
+      "description": "城市各區可見不同文化餐館，透過餐桌認識當代雪梨的多樣面貌。"
+    }
+  ],
+  "travelTips": [
+    {
+      "title": "渡輪也是風景",
+      "description": "搭船前查官方時刻與目的地，並為天氣造成的變動保留彈性。"
+    },
+    {
+      "title": "海邊重視安全",
+      "description": "遵守救生員指示與旗幟範圍，不熟悉海況時不貿然下水。"
+    },
+    {
+      "title": "做好防曬",
+      "description": "戶外步行攜帶帽子、飲水並使用防曬用品，也安排陰涼處休息。"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "images/sydney/gallery-01.webp",
+      "alt": "雪梨港沿岸與海港大橋景觀",
+      "author": "ZHENGQI WEI",
+      "sourceUrl": "https://unsplash.com/photos/7bhJM7HDYmE",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sydney Opera House — Visit",
+      "url": "https://www.sydneyoperahouse.com/visit"
+    },
+    {
+      "title": "Sydney — Official tourism",
+      "url": "https://www.sydney.com/"
+    },
+    {
+      "title": "Destination NSW — Sydney attractions",
+      "url": "https://www.sydney.com/articles/top-attractions-in-sydney"
+    }
+  ]
+}

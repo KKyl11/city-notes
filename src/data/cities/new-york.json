@@ -1,0 +1,93 @@
+{
+  "slug": "new-york",
+  "name": {
+    "zh": "紐約",
+    "en": "New York"
+  },
+  "country": {
+    "zh": "美國",
+    "en": "USA"
+  },
+  "continent": "North America",
+  "tagline": "街角、綠地與天際線，各有自己的節拍。",
+  "summary": "紐約是一座適合用街區認識的城市。曼哈頓的高樓與中央公園形成鮮明對比，走向布魯克林，又能從河岸重新看見天際線。不同社群的餐桌、藝術與街頭生活，讓每次轉彎都有新的線索。把地標當起點，也為偶然遇見的小店留下時間。",
+  "tags": ["Architecture", "Arts", "Food"],
+  "bestTimeToVisit": "春季與秋季適合公園和街區步行；冬季可能寒冷，夏季常有炎熱天氣。依當天預報調整戶外安排，預留室內替代選項。",
+  "heroImage": {
+    "src": "images/new-york/hero.webp",
+    "alt": "暮色下的紐約曼哈頓天際線",
+    "author": "Zooey Li",
+    "sourceUrl": "https://unsplash.com/photos/hnlpFK1MAKY",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license"
+  },
+  "attractions": [
+    {
+      "name": "中央公園",
+      "category": "Nature",
+      "description": "在曼哈頓綠地裡選一段步道散步，搭配園方地圖規劃入口與休息點。"
+    },
+    {
+      "name": "布魯克林大橋",
+      "category": "Architecture",
+      "description": "以步行認識河岸與橋樑景觀，留意行人動線並避免在通道停留。"
+    },
+    {
+      "name": "大都會藝術博物館",
+      "category": "Art",
+      "description": "依收藏主題挑選展區，參觀前確認官方入館與展覽資訊。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "紐約風格披薩",
+      "description": "以一片披薩作為街區探索的午餐，各家餅皮與配料各有個性。"
+    },
+    {
+      "name": "貝果",
+      "description": "選擇不同抹醬或內餡，體驗紐約常見的早餐風景。"
+    },
+    {
+      "name": "多元社群餐桌",
+      "description": "從不同街區的餐館與市場，認識城市由移民文化累積的飲食面貌。"
+    }
+  ],
+  "travelTips": [
+    {
+      "title": "辨認列車方向",
+      "description": "進站前確認往上城或下城、快車或慢車，並查服務變更。"
+    },
+    {
+      "title": "按區域規劃",
+      "description": "城市範圍大，把同區景點排在一起，減少往返。"
+    },
+    {
+      "title": "步行留有餘裕",
+      "description": "穿著適合長距離步行的鞋，過馬路遵守號誌，休息時也能觀察城市。"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "images/new-york/gallery-01.webp",
+      "alt": "從橋樑眺望紐約城市天際線",
+      "author": "Nicolas Savignat",
+      "sourceUrl": "https://unsplash.com/photos/sMDJ_xFli18",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NYC Tourism + Conventions",
+      "url": "https://www.nyctourism.com/"
+    },
+    {
+      "title": "Central Park Conservancy",
+      "url": "https://www.centralparknyc.org/"
+    },
+    {
+      "title": "NYC Tourism — City culture and food",
+      "url": "https://corporate.nyctourism.com/rebrand"
+    }
+  ]
+}

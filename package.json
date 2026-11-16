@@ -1,0 +1,21 @@
+{
+  "name": "city-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "validate": "node scripts/validate-cities.mjs",
+    "test": "node scripts/test.mjs",
+    "test:browser": "node scripts/browser-test.mjs"
+  },
+  "devDependencies": {
+    "vite": "8.3.8",
+    "@playwright/test": "1.65.1"
+  }
+}

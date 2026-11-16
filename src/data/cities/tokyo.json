@@ -1,0 +1,93 @@
+{
+  "slug": "tokyo",
+  "name": {
+    "zh": "東京",
+    "en": "Tokyo"
+  },
+  "country": {
+    "zh": "日本",
+    "en": "Japan"
+  },
+  "continent": "Asia",
+  "tagline": "在巷弄與天際線之間，找到東京的日常。",
+  "summary": "東京的魅力藏在不同街區的轉場：淺草的寺院與商店街、新宿向上延伸的高樓，以及上野的綠地和文化設施。這座城市讓歷史與當代生活並行；與其急著走遍所有地標，不如選一個街區慢慢散步，從一碗熱食或街角風景開始認識它。",
+  "tags": ["Culture", "Food", "Urban"],
+  "bestTimeToVisit": "春季與秋季適合安排步行探索；櫻花與紅葉時間每年不同。夏季較炎熱潮濕，冬季可準備保暖衣物，出發前再確認天氣。",
+  "heroImage": {
+    "src": "images/tokyo/hero.webp",
+    "alt": "東京都廳展望台望向高樓與綠地的城市景觀",
+    "author": "Yosuke Ota",
+    "sourceUrl": "https://unsplash.com/photos/ID5tvlaOa3E",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license"
+  },
+  "attractions": [
+    {
+      "name": "淺草寺與淺草",
+      "category": "Culture",
+      "description": "從雷門周邊步行感受寺院與商店街的街區氛圍，參拜時留意現場禮儀。"
+    },
+    {
+      "name": "上野公園",
+      "category": "Nature",
+      "description": "在公園綠地散步，也能依興趣安排周邊博物館；各館展覽與開放資訊請另查。"
+    },
+    {
+      "name": "東京都廳展望室",
+      "category": "Cityscape",
+      "description": "從新宿高處觀察密集都市景觀，出發前確認展望室公告及開放安排。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "壽司",
+      "description": "從握壽司到不同魚種的風味，認識東京餐桌與江戶飲食的連結。"
+    },
+    {
+      "name": "蕎麥麵",
+      "description": "試試冷麵沾醬或熱湯麵，以簡潔的料理感受麵條香氣。"
+    },
+    {
+      "name": "文字燒",
+      "description": "以月島等街區為起點，體驗在鐵板上慢慢煎製、分食的飲食方式。"
+    }
+  ],
+  "travelTips": [
+    {
+      "title": "按街區安排",
+      "description": "把鄰近景點放在同一天，為步行與轉乘留下餘裕。"
+    },
+    {
+      "title": "先確認路線",
+      "description": "鐵路由不同業者營運，進站前核對路線、方向與出口。"
+    },
+    {
+      "title": "尊重日常",
+      "description": "在寺院與住宅街降低音量，拍攝人物前先徵得同意。"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "images/tokyo/gallery-01.webp",
+      "alt": "東京夜晚亮起燈光的高樓與體育場",
+      "author": "Seungyun Oh",
+      "sourceUrl": "https://unsplash.com/photos/-FscXDtlZrk",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GO TOKYO — Best things to do",
+      "url": "https://www.gotokyo.org/en/see-and-do/index.html"
+    },
+    {
+      "title": "GO TOKYO — Tokyo outline",
+      "url": "https://www.gotokyo.org/en/plan/tokyo-outline/index.html"
+    },
+    {
+      "title": "GO TOKYO — Tokyo local food",
+      "url": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html"
+    }
+  ]
+}

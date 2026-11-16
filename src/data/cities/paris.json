@@ -1,0 +1,89 @@
+{
+  "slug": "paris",
+  "name": {
+    "zh": "巴黎",
+    "en": "Paris"
+  },
+  "country": {
+    "zh": "法國",
+    "en": "France"
+  },
+  "continent": "Europe",
+  "tagline": "沿著塞納河，把日子過成一頁散文。",
+  "summary": "巴黎可以從一段河岸散步開始。塞納河串起城市的建築與博物館，街區裡則有麵包店、咖啡館與日常市場。你可以為藝術留下一個下午，也可以只是坐下看街景；在宏偉地標與細小生活之間，找到自己的閱讀速度。",
+  "tags": ["Art", "Architecture", "Café"],
+  "bestTimeToVisit": "春季與秋季適合安排河岸步行與戶外停留；仍可能下雨，建議攜帶輕便雨具。夏季旅客較多，熱門場館請提早查看預約。",
+  "heroImage": {
+    "src": "images/paris/hero.webp",
+    "alt": "白天巴黎艾菲爾鐵塔與周圍城市景觀",
+    "author": "Fabio Fistarol",
+    "sourceUrl": "https://unsplash.com/photos/Zve-pSbRKbs",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license"
+  },
+  "attractions": [
+    {
+      "name": "艾菲爾鐵塔",
+      "category": "Architecture",
+      "description": "從塞納河岸欣賞鐵塔與城市輪廓；登塔方式與預約請查官方資訊。"
+    },
+    {
+      "name": "羅浮宮",
+      "category": "Art",
+      "description": "依自己的興趣挑選館藏主題，預留休息與移動時間，不必一次看完所有展廳。"
+    },
+    {
+      "name": "蒙馬特",
+      "category": "Neighbourhood",
+      "description": "在坡道與街巷之間步行，觀察巴黎另一種街區尺度。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "可頌與麵包店",
+      "description": "從一份可頌或法國麵包開始早晨，留意街區麵包店各自的風味。"
+    },
+    {
+      "name": "小酒館料理",
+      "description": "以當日菜單認識法式家常餐桌，點餐前確認食材與過敏原。"
+    },
+    {
+      "name": "咖啡館文化",
+      "description": "留一段坐下喝咖啡的時間，感受露臺與街道之間的日常節奏。"
+    }
+  ],
+  "travelTips": [
+    {
+      "title": "博物館先查預約",
+      "description": "熱門場館依日期與展覽可能有不同安排，從官方網站確認。"
+    },
+    {
+      "title": "步行結合大眾交通",
+      "description": "先依街區規劃，再以地鐵連接較遠地點。"
+    },
+    {
+      "title": "保管隨身物品",
+      "description": "在擁擠景點與交通場站留意包袋，避免將貴重物品放在外側口袋。"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "images/paris/gallery-01.webp",
+      "alt": "巴黎艾菲爾鐵塔前的粉紅色花朵",
+      "author": "Fabio Fistarol",
+      "sourceUrl": "https://unsplash.com/photos/viHhlcvFjTo",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Paris je t’aime — Official tourism",
+      "url": "https://parisjetaime.com/eng/"
+    },
+    {
+      "title": "Musée du Louvre — Official website",
+      "url": "https://www.louvre.fr/en"
+    }
+  ]
+}

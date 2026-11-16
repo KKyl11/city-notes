@@ -1,0 +1,16 @@
+import { findCity } from "../utils/city-loader.js";
+import { sitePath } from "../utils/paths.js";
+import { escape as e, photo, sectionHeading } from "../components/shared.js";
+const entries = (items, key) =>
+  `<div class="notes-grid">${items.map((item, i) => `<article><span class="note-number">${String(i + 1).padStart(2, "0")}</span>${item.category ? `<p class="eyebrow">${e(item.category)}</p>` : ""}<h3>${e(item[key])}</h3><p>${e(item.description)}</p></article>`).join("")}</div>`;
+export function renderCity(main) {
+  const city = findCity(new URLSearchParams(location.search).get("slug"));
+  if (!city) {
+    document.title = "找不到城市 | City Notes";
+    main.innerHTML = `<section class="wrap empty"><p class="eyebrow">404 / City not found</p><h1>This page is<br><em>uncharted.</em></h1><p>找不到這座城市，請回到城市列表繼續探索。</p><a class="button" href="${sitePath("explore.html")}">返回 Explore ↗</a></section>`;
+    return;
+  }
+  document.title = `${city.name.en} ${city.name.zh} | City Notes`;
+  document.querySelector('meta[name="description"]').content = city.tagline;
+  main.innerHTML = `<header class="wrap page-heading city-title"><a class="text-link" href="${sitePath("explore.html")}">← Back to Explore</a><p class="eyebrow">${e(city.continent)} / ${e(city.country.en)} · ${e(city.country.zh)}</p><h1>${e(city.name.en)}<span>${e(city.name.zh)}</span></h1><p>${e(city.tagline)}</p></header><div class="wrap detail-hero">${photo(city.heroImage, true)}</div><section class="wrap overview"><p class="eyebrow">01 / The city at a glance</p><div><h2>A sense of place.</h2><p class="lead">${e(city.summary)}</p><div class="tags" aria-label="城市亮點">${city.tags.map((tag) => `<span>${e(tag)}</span>`).join("")}</div></div></section><section class="wrap detail-section">${sectionHeading("02 / Must-visit attractions", "Places to remember.")} ${entries(city.attractions, "name")}</section><section class="food-band"><div class="wrap detail-section">${sectionHeading("03 / Food & culture", "A taste of the city.")} ${entries(city.foods, "name")}</div></section><section class="wrap season"><p class="eyebrow">04 / Best time to visit</p><div><h2>Choose your season.</h2><p>${e(city.bestTimeToVisit)}</p></div></section><section class="wrap detail-section">${sectionHeading("05 / Travel tips", "A few things to know.")} ${entries(city.travelTips, "title")}</section><section class="wrap detail-section">${sectionHeading("06 / Photo gallery", "Another perspective.")} ${city.gallery.map((image) => `<figure class="gallery">${photo(image)}<figcaption>${e(image.alt)} · Photo: ${e(image.author)}</figcaption></figure>`).join("")}</section><section class="wrap sources"><h2>Sources & image credits</h2><p>內容查核：2026-11-16。出發前請向官方確認最新交通、開放與預約資訊。</p><ul>${city.sources.map((source) => `<li><a href="${e(source.url)}" target="_blank" rel="noopener noreferrer">${e(source.title)} ↗</a></li>`).join("")}</ul><details><summary>攝影來源與授權（${city.gallery.length + 1} 張）</summary><ul>${[city.heroImage, ...city.gallery].map((image) => `<li>${e(image.alt)} — ${e(image.author)} / <a href="${e(image.sourceUrl)}" target="_blank" rel="noopener noreferrer">原始照片</a> / <a href="${e(image.licenseUrl)}" target="_blank" rel="noopener noreferrer">${e(image.license)}</a>（縮放、WebP 壓縮，顯示時裁切）</li>`).join("")}</ul></details><a class="button" href="${sitePath("explore.html")}">← 返回所有城市</a></section>`;
+}

@@ -1,0 +1,14 @@
+:root {
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --text: #242424;
+  --muted: #625f59;
+  --accent: #58634d;
+  --border: #e5e1d9;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans:
+    Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+    "Microsoft JhengHei", sans-serif;
+  --width: 1280px;
+  --space: 8px;
+}

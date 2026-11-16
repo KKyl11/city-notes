@@ -1,0 +1,4 @@
+import { sitePath } from "../utils/paths.js";
+export function renderAbout(main) {
+  main.innerHTML = `<article class="wrap about"><p class="eyebrow">Behind the journal</p><h1>Places become<br><em>perspectives.</em></h1><p class="lead">旅行不只是抵達另一個地方，<br>也是換一種方式，看待生活。</p><section><h2>Small notes. A wider world.</h2><p>City Notes 是一本可以慢慢翻閱的線上城市筆記。我們從東京、巴黎、紐約、雪梨與開普敦出發，整理風景、文化與餐桌上的日常，讓第一次認識一座城市的人，也能找到探索的方向。</p><p>我們相信，一份好的指南不需要填滿每一分鐘。幾個值得停留的地方、一點飲食的線索，再加上出發前該知道的小事，就能為自己的旅程留下空間。</p></section><section><h2>One journal. Many chapters.</h2><p>每座城市都有不同個性，卻共享同一套清楚的閱讀順序。城市資料與頁面設計分開儲存；未來加入新的城市筆記，便能自然出現在城市列表中，不必重新打造一個網站。</p><p>專案中的 AGENTS.md 像是編輯手冊，說明如何研究、撰寫、管理照片授權與檢查內容。它讓後續協作的 AI 能依照同樣的標準，維持這本筆記的一致與可信。</p></section><section><h2>Read with curiosity.</h2><p>這是以繁體中文編寫的大學課程作業。內容提供初步探索靈感，並附上參考來源；季節、交通與景點狀況可能變動，出發前請再確認官方資訊。攝影作者與授權列於各城市頁末。</p></section><a class="button" href="${sitePath("explore.html")}">開始探索 ↗</a></article>`;
+}

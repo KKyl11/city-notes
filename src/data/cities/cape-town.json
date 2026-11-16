@@ -1,0 +1,93 @@
+{
+  "slug": "cape-town",
+  "name": {
+    "zh": "開普敦",
+    "en": "Cape Town"
+  },
+  "country": {
+    "zh": "南非",
+    "en": "South Africa"
+  },
+  "continent": "Africa",
+  "tagline": "在山海之間，看見層層交織的城市。",
+  "summary": "桌山的輪廓替開普敦標出方向，港灣與大西洋岸線則帶來另一種開闊。這座城市也有值得理解的歷史與社群文化：從博卡普的街景到海濱的公共空間，旅程可以同時欣賞自然，也尊重每一處地方的生活脈絡。",
+  "tags": ["Nature", "Heritage", "Coast"],
+  "bestTimeToVisit": "南半球春季與秋季可作為城市與戶外探索的起點；夏季較乾燥，冬季較容易遇雨。桌山可能受強風與雲霧影響，請查官方天氣與開放公告。",
+  "heroImage": {
+    "src": "images/cape-town/hero.webp",
+    "alt": "從桌山高處俯瞰開普敦與海灣",
+    "author": "Joshua Kettle",
+    "sourceUrl": "https://unsplash.com/photos/e0K6_Xk_mFQ",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license"
+  },
+  "attractions": [
+    {
+      "name": "桌山國家公園",
+      "category": "Nature",
+      "description": "觀察山地與獨特植被，出發前向園方確認路線、天氣與相關安全公告。"
+    },
+    {
+      "name": "博卡普",
+      "category": "Heritage",
+      "description": "在街區認識文化與歷史，這裡也是居民的家，拍攝時尊重私人空間。"
+    },
+    {
+      "name": "V&A Waterfront",
+      "category": "Waterfront",
+      "description": "沿港灣散步，探索餐館與公共空間，從水岸看見城市與海的連結。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "Cape Malay 料理",
+      "description": "透過香料咖哩等料理認識社群飲食傳統，避免把多樣文化簡化成單一道菜。"
+    },
+    {
+      "name": "烤肉文化 Braai",
+      "description": "認識以烤肉與相聚為核心的餐桌形式，也可依飲食偏好選擇配菜。"
+    },
+    {
+      "name": "海岸海鮮",
+      "description": "依餐廳提供的當日食材選擇料理，並詢問來源與準備方式。"
+    }
+  ],
+  "travelTips": [
+    {
+      "title": "登山需準備",
+      "description": "避免獨自走不熟悉的山徑，確認官方安全建議並備妥飲水與衣物。"
+    },
+    {
+      "title": "確認可靠交通",
+      "description": "事前規劃接送與回程，向住宿或官方旅遊資訊確認適合的動線。"
+    },
+    {
+      "title": "尊重社區",
+      "description": "進入住宅街區保持音量，拍攝居民前先取得同意。"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "images/cape-town/gallery-01.webp",
+      "alt": "開普敦桌山頂的岩石與低垂雲層",
+      "author": "Joshua Kettle",
+      "sourceUrl": "https://unsplash.com/photos/4gBwUDsuxJk",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cape Town Tourism — Official guide",
+      "url": "https://www.capetown.travel/"
+    },
+    {
+      "title": "SANParks — Table Mountain National Park",
+      "url": "https://www.sanparks.org/parks/table-mountain"
+    },
+    {
+      "title": "Cape Town Tourism — Traditional food",
+      "url": "https://www.capetown.travel/celebrate-heritage-day-in-cape-town-with-traditional-south-african-food-delights/"
+    }
+  ]
+}
